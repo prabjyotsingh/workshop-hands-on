@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">MyPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Your speaker</span></h1>
+                <p>I am a <span id="typed-text"></span></p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="myphoto.jpg" alt="Your Photo" class="profile-pic">
+                <p>
+                    Hello! I'm a passionate and creative web developer based in Banglore . I specialize in front-end development and love creating intuitive, dynamic user experiences. Here are a few technologies I've been working with recently:
+                </p>
+            </div>
+            <div class="skills-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="p1.png" alt="Project 1 Thumbnail">
+                    <h3>Project One</h3>
+                    <p>A brief description of the project, its purpose, and the technologies used.</p>
+                    <div class="project-links">
+                        <a href="https://sentryl.vercel.app">Live Demo</a>
+                        <a href="https://github.com/prabjyotsingh/Sentryl">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="p2.png" alt="Project 2 Thumbnail">
+                    <h3>Project Two</h3>
+                    <p>A brief description of the project, its purpose, and the technologies used.</p>
+                    <div class="project-links">
+                        <a href="https://panthnama.vercel.app/">Live Demo</a>
+                        <a href="https://github.com/prabjyotsingh/panthhnama">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="p3.png" alt="Project 3 Thumbnail">
+                    <h3>Project Three</h3>
+                    <p>A brief description of the project, its purpose, and the technologies used.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/prabjyotsingh/car">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to work together? Feel free to reach out!</p>
+            <a href="mailto:prabjyotsingh996@gmail.com" class="cta-button">Say Hello</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 . All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
